@@ -132,3 +132,36 @@ hr{
     border-radius: 5px;
     background-color: #FFF4D6;
 }
+#waiting-flexible{
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.waiting-flexed{
+    padding: 40px 40px;
+}
+
+.waiting-descriptions{
+    text-align: left;
+    width: 50%;
+    margin-left: 130px;
+}
+.waiting-image{
+    width: 50%;
+    margin-right: 230px;
+}
+.waiting-image img{
+    width: 150%;
+    margin-top: 20px;
+    border-radius: 2%;
+    margin-left: -50px;
+}
+
+#header-waiting{
+    font-size: 50px;
+}
+#waiting-ppl-desc{
+    font-weight: 100;
+    margin-bottom: 50px;
+    color: #707070;
+}
