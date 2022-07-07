@@ -42,7 +42,6 @@ body{
 #header-D-today{
     font-size: 50px;
     font-weight:bolder;
-    font-family:'Inter', sans-serif;
 }
 #description02{
     font-weight: 100;
@@ -79,5 +78,57 @@ hr{
     height: 1px;
     border: none;
     background-color: #DADADA;
-    margin-bottom: 65px;
+    margin-bottom: 55px;
+}
+.donation-plan{
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: 100px;
+}
+#description03{
+    color: #707070;
+    font-weight: 100;
+    font-size: 16px;
+    text-align: left;
+    border-radius: 5px;
+}
+
+.d-plan-flexible{
+    display: flex;
+    padding-right: 85px;
+    padding-left: 85px;
+    margin-top: 20px;
+}
+.plan-flexed{
+    padding: 10px 40px;
+    margin-left: 24px;
+    margin-right: 0px;
+    margin-right: 0px;
+}
+#agenda-title{
+    text-align:left;
+    font-weight: 800;
+}
+#agenda-icon{
+    margin-top: 65px;
+    margin-left: -85%;
+}
+
+.house{
+    width: 360px;
+    height: 352px;
+    border-radius: 5px;
+    background-color:rgba(79, 157, 166, .1)
+}
+.food{
+    width: 360px;
+    height: 352px;
+    border-radius: 5px;
+    background-color: rgba(255, 89, 89, 0.1);
+}
+.education{
+    width: 360px;
+    height: 352px;
+    border-radius: 5px;
+    background-color: #FFF4D6;
 }
