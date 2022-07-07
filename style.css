@@ -1,13 +1,14 @@
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
+    margin-bottom: -3px;
 }
 
 .cover{
-    padding: 240px 0px;
     background-size:cover;
     background-repeat: no-repeat;
     background-image: linear-gradient(360deg,	#121212 0%,rgba(18, 18, 18, 0) 100%), url(./images/donation8.jpg);
+    padding: 240px 0px;
 }
 .introduction{
     width: 100%;
@@ -16,20 +17,67 @@ body{
     margin-top: -75px;
     text-align: center;
 }
-.header01{
+#header01{
     font-size: 65px;
     text-align: center;
 
 }
-.description{
+#description01{
     font-weight: 100;
+    margin-bottom: 65px;
 }
 .donate-button{
-    font-weight: 200;
+    padding: 20px 40px;
     color: white;
-    text-decoration: none;
-    padding: 15px 35px;
     background-color: #FF5959;
+    text-decoration: none;
     border-radius: 5px;
-    margin-top: 10px;
+    font-size: large;
+}
+.donation-amount{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+#header-D-today{
+    font-size: 50px;
+    font-weight:bolder;
+    font-family:'Inter', sans-serif;
+}
+#description02{
+    font-weight: 100;
+    font-size: 18px;
+    color: #707070;
+    margin-top: 20px;
+}
+.flexible-container{
+    display: flex;
+    padding-left: 21%;
+}
+.amounts{
+    padding: 15px 30px;
+    background-color: whitesmoke;
+    color: #707070;
+    margin-left: 22px;
+    margin-top: 25px;
+    margin-right: 0px;
+    border-radius: 5px;
+}
+.desired-amount{
+    background-color: #FFEEEE;
+    border: 2px solid #FF5959;
+    color: #FF5959;
+    font-weight: 900;
+}
+#otherAmount{
+    color: #B3B3B3;
+    font-weight: 100;
+    margin-top: 35px;
+}
+hr{
+    width: 765px;
+    height: 1px;
+    border: none;
+    background-color: #DADADA;
+    margin-bottom: 65px;
 }
